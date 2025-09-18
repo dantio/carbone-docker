@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/dantio/carbone-docker/compare/0.1.4...0.1.5) (2025-09-18)
+
+
+### Features
+
+* Merge pull request [#8](https://github.com/dantio/carbone-docker/issues/8) from frodrigo/healtcheck ([5af701a](https://github.com/dantio/carbone-docker/commit/5af701a890eab574469ac4d553489e09baaa15db))
+
+
+### Bug Fixes
+
+* add iml file to gitignore ([ab80e69](https://github.com/dantio/carbone-docker/commit/ab80e6955f6a1bec901f9941917a2c1fa70f7c3e))
+* LibreOffice download URL Merge pull request [#7](https://github.com/dantio/carbone-docker/issues/7) from frodrigo/update_lo_url ([f90b3da](https://github.com/dantio/carbone-docker/commit/f90b3da8102b1d8c74e0f88c1fc8732f638e22ad))
+* run npm audit ([71abc18](https://github.com/dantio/carbone-docker/commit/71abc185cc9d333fa9df2bc470c9a0b0312548ce))
+
 ### [0.1.4](https://github.com/dantio/carbone-docker/compare/0.1.3...0.1.4) (2022-06-19)
 
 
