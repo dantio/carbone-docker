@@ -52,6 +52,10 @@ if (process.env.DEMO) {
   });
 }
 
+fastify.head('/up', (req, reply) => {
+  return { hello: 'ok' };
+});
+
 function getTemplatePath(req) {
   if (req.file) {
     return Promise.resolve(req.file.path);

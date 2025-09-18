@@ -24,3 +24,11 @@ COPY --chown=node:node . .
 EXPOSE 3030
 CMD node index
 USER root
+
+HEALTHCHECK \
+    --start-interval=1s \
+    --start-period=30s \
+    --interval=30s \
+    --timeout=20s \
+    --retries=5 \
+    CMD wget --no-verbose --tries=1 --spider http://127.0.0.1:3030/up || exit 1
